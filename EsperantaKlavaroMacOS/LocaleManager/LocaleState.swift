@@ -1,10 +1,3 @@
-//
-//  Locale.swift
-//  Tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-27.
-//
-
 import Foundation
 
 class LocaleState: State {
@@ -27,8 +20,6 @@ class LocaleState: State {
             return "eo";
         case is English:
             return "eng";
-        case is Swedish:
-            return "sv";
         default:
             exit(1);
         }
@@ -40,8 +31,6 @@ class LocaleState: State {
             return English();
         case "eo":
             return Esperanto();
-        case "sv":
-            return Swedish();
         default:
             exit(1);
         }

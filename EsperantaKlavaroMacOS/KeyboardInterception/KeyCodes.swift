@@ -1,13 +1,5 @@
-//
-//  KeyCodes.swift
-//  Tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-27.
-//
-
 import Foundation
 
-// https://gist.github.com/swillits/df648e87016772c7f7e5dbed2b345066
 struct KeyCodes {
     static let a                         : Int64 = 0x00
     static let b                         : Int64 = 0x0B

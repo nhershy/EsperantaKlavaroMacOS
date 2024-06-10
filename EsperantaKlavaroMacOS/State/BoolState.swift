@@ -1,10 +1,3 @@
-//
-//  Mode.swift
-//  Tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-27.
-//
-
 import Foundation
 
 class BoolState: State {

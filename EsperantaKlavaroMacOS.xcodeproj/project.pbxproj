@@ -10,7 +10,6 @@
 		80B273DB27A2AAD3005B451F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B273DA27A2AAD3005B451F /* Assets.xcassets */; };
 		80B273DE27A2AAD3005B451F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B273DD27A2AAD3005B451F /* Preview Assets.xcassets */; };
 		80B273E627A2AD07005B451F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B273E527A2AD07005B451F /* main.swift */; };
-		80B273EA27A2ADD5005B451F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80B273E927A2ADD5005B451F /* Info.plist */; };
 		80B273ED27A2AF36005B451F /* LocaleState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B273EC27A2AF36005B451F /* LocaleState.swift */; };
 		80B273F027A2AF68005B451F /* Locale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B273EF27A2AF68005B451F /* Locale.swift */; };
 		80B273F527A2B163005B451F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B273F427A2B163005B451F /* AppDelegate.swift */; };
@@ -22,16 +21,14 @@
 		80B2740727A2BC1B005B451F /* replaceCombination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2740627A2BC1B005B451F /* replaceCombination.swift */; };
 		80B2740927A2BCBA005B451F /* KeyCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2740827A2BCBA005B451F /* KeyCodes.swift */; };
 		80B2740B27A2C0B4005B451F /* English.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2740A27A2C0B4005B451F /* English.swift */; };
-		80B2740E27A3E4B4005B451F /* checkForUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2740D27A3E4B4005B451F /* checkForUpdate.swift */; };
 		80B2741027A3E95F005B451F /* Esperanto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2740F27A3E95F005B451F /* Esperanto.swift */; };
-		80B2741227A3E97E005B451F /* Swedish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2741127A3E97E005B451F /* Swedish.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		808CDE8727A3F44B00B7ADBF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		808CDE8827A3F44B00B7ADBF /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .github; sourceTree = "<group>"; };
 		808CDE8927A3F82C00B7ADBF /* GIVE_ACCESS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GIVE_ACCESS.md; sourceTree = "<group>"; };
-		80B273D327A2AAD2005B451F /* Tajpi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tajpi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B273D327A2AAD2005B451F /* Esperanta Klavaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Esperanta Klavaro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B273DA27A2AAD3005B451F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B273DD27A2AAD3005B451F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		80B273DF27A2AAD3005B451F /* Tajpi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tajpi.entitlements; sourceTree = "<group>"; };
@@ -49,10 +46,7 @@
 		80B2740627A2BC1B005B451F /* replaceCombination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = replaceCombination.swift; sourceTree = "<group>"; };
 		80B2740827A2BCBA005B451F /* KeyCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCodes.swift; sourceTree = "<group>"; };
 		80B2740A27A2C0B4005B451F /* English.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English.swift; sourceTree = "<group>"; };
-		80B2740D27A3E4B4005B451F /* checkForUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkForUpdate.swift; sourceTree = "<group>"; };
 		80B2740F27A3E95F005B451F /* Esperanto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esperanto.swift; sourceTree = "<group>"; };
-		80B2741127A3E97E005B451F /* Swedish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swedish.swift; sourceTree = "<group>"; };
-		80B2741427A3F1B8005B451F /* version */ = {isa = PBXFileReference; lastKnownFileType = text; path = version; sourceTree = "<group>"; };
 		80B428EB2876D3B500C62C3F /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,8 +69,7 @@
 				808CDE8927A3F82C00B7ADBF /* GIVE_ACCESS.md */,
 				808CDE8727A3F44B00B7ADBF /* .gitignore */,
 				808CDE8827A3F44B00B7ADBF /* .github */,
-				80B2741327A3F19D005B451F /* AWS */,
-				80B273D527A2AAD2005B451F /* Tajpi */,
+				80B273D527A2AAD2005B451F /* EsperantaKlavaroMacOS */,
 				80B273D427A2AAD2005B451F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,19 +77,18 @@
 		80B273D427A2AAD2005B451F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				80B273D327A2AAD2005B451F /* Tajpi.app */,
+				80B273D327A2AAD2005B451F /* Esperanta Klavaro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		80B273D527A2AAD2005B451F /* Tajpi */ = {
+		80B273D527A2AAD2005B451F /* EsperantaKlavaroMacOS */ = {
 			isa = PBXGroup;
 			children = (
 				80B273E927A2ADD5005B451F /* Info.plist */,
 				80B273DA27A2AAD3005B451F /* Assets.xcassets */,
 				80B273DF27A2AAD3005B451F /* Tajpi.entitlements */,
 				80B273E527A2AD07005B451F /* main.swift */,
-				80B2740C27A3E499005B451F /* CheckForUpdate */,
 				80B273FD27A2B45D005B451F /* State */,
 				80B273FA27A2B328005B451F /* Privlige */,
 				80B273F327A2B14C005B451F /* AppDelegate */,
@@ -104,7 +96,7 @@
 				80B273F627A2B1D3005B451F /* KeyboardInterception */,
 				80B273DC27A2AAD3005B451F /* Preview Content */,
 			);
-			path = Tajpi;
+			path = EsperantaKlavaroMacOS;
 			sourceTree = "<group>";
 		};
 		80B273DC27A2AAD3005B451F /* Preview Content */ = {
@@ -130,7 +122,6 @@
 				80B273EF27A2AF68005B451F /* Locale.swift */,
 				80B2740A27A2C0B4005B451F /* English.swift */,
 				80B2740F27A3E95F005B451F /* Esperanto.swift */,
-				80B2741127A3E97E005B451F /* Swedish.swift */,
 			);
 			path = Locales;
 			sourceTree = "<group>";
@@ -171,28 +162,12 @@
 			path = State;
 			sourceTree = "<group>";
 		};
-		80B2740C27A3E499005B451F /* CheckForUpdate */ = {
-			isa = PBXGroup;
-			children = (
-				80B2740D27A3E4B4005B451F /* checkForUpdate.swift */,
-			);
-			path = CheckForUpdate;
-			sourceTree = "<group>";
-		};
-		80B2741327A3F19D005B451F /* AWS */ = {
-			isa = PBXGroup;
-			children = (
-				80B2741427A3F1B8005B451F /* version */,
-			);
-			path = AWS;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		80B273D227A2AAD2005B451F /* Tajpi */ = {
+		80B273D227A2AAD2005B451F /* EsperantaKlavaroMacOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80B273E227A2AAD3005B451F /* Build configuration list for PBXNativeTarget "Tajpi" */;
+			buildConfigurationList = 80B273E227A2AAD3005B451F /* Build configuration list for PBXNativeTarget "EsperantaKlavaroMacOS" */;
 			buildPhases = (
 				80B273CF27A2AAD2005B451F /* Sources */,
 				80B273D027A2AAD2005B451F /* Frameworks */,
@@ -202,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = Tajpi;
+			name = EsperantaKlavaroMacOS;
 			productName = Tajpi;
-			productReference = 80B273D327A2AAD2005B451F /* Tajpi.app */;
+			productReference = 80B273D327A2AAD2005B451F /* Esperanta Klavaro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -215,14 +190,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					80B273D227A2AAD2005B451F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 80B273CE27A2AAD2005B451F /* Build configuration list for PBXProject "Tajpi" */;
+			buildConfigurationList = 80B273CE27A2AAD2005B451F /* Build configuration list for PBXProject "EsperantaKlavaroMacOS" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,7 +210,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				80B273D227A2AAD2005B451F /* Tajpi */,
+				80B273D227A2AAD2005B451F /* EsperantaKlavaroMacOS */,
 			);
 		};
 /* End PBXProject section */
@@ -247,7 +222,6 @@
 			files = (
 				80B273DE27A2AAD3005B451F /* Preview Assets.xcassets in Resources */,
 				80B273DB27A2AAD3005B451F /* Assets.xcassets in Resources */,
-				80B273EA27A2ADD5005B451F /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +235,6 @@
 				80B2740927A2BCBA005B451F /* KeyCodes.swift in Sources */,
 				80B2741027A3E95F005B451F /* Esperanto.swift in Sources */,
 				80B273F827A2B231005B451F /* KeyboardInterception.swift in Sources */,
-				80B2741227A3E97E005B451F /* Swedish.swift in Sources */,
 				80B273F027A2AF68005B451F /* Locale.swift in Sources */,
 				80B2740B27A2C0B4005B451F /* English.swift in Sources */,
 				80B2740727A2BC1B005B451F /* replaceCombination.swift in Sources */,
@@ -270,7 +243,6 @@
 				80B273E627A2AD07005B451F /* main.swift in Sources */,
 				80B2740527A2BA74005B451F /* keyboardCallback.swift in Sources */,
 				80B273ED27A2AF36005B451F /* LocaleState.swift in Sources */,
-				80B2740E27A3E4B4005B451F /* checkForUpdate.swift in Sources */,
 				80B273FF27A2B46F005B451F /* State.swift in Sources */,
 				80B2740127A2B6F0005B451F /* BoolState.swift in Sources */,
 			);
@@ -313,9 +285,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -374,9 +348,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -399,26 +375,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Tajpi/Tajpi.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Tajpi/Preview Content\"";
-				DEVELOPMENT_TEAM = EKBJFR3MTZ;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EsperantaKlavaroMacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9AZ9MMS68X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Tajpi/Info.plist;
+				INFOPLIST_FILE = EsperantaKlavaroMacOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Esperanta Klavaro";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fritiof-rusck.Tajpi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = nhershy.EsperantaKlavaroMacOS;
+				PRODUCT_NAME = "Esperanta Klavaro";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -429,26 +408,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Tajpi/Tajpi.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Tajpi/Preview Content\"";
-				DEVELOPMENT_TEAM = EKBJFR3MTZ;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"EsperantaKlavaroMacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 9AZ9MMS68X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Tajpi/Info.plist;
+				INFOPLIST_FILE = EsperantaKlavaroMacOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Esperanta Klavaro";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 1.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.fritiof-rusck.Tajpi";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = nhershy.EsperantaKlavaroMacOS;
+				PRODUCT_NAME = "Esperanta Klavaro";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -457,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		80B273CE27A2AAD2005B451F /* Build configuration list for PBXProject "Tajpi" */ = {
+		80B273CE27A2AAD2005B451F /* Build configuration list for PBXProject "EsperantaKlavaroMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80B273E027A2AAD3005B451F /* Debug */,
@@ -466,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80B273E227A2AAD3005B451F /* Build configuration list for PBXNativeTarget "Tajpi" */ = {
+		80B273E227A2AAD3005B451F /* Build configuration list for PBXNativeTarget "EsperantaKlavaroMacOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				80B273E327A2AAD3005B451F /* Debug */,

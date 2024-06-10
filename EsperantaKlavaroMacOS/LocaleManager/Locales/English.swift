@@ -1,10 +1,3 @@
-//
-//  English.swift
-//  Tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-27.
-//
-
 import Foundation
 
 struct English: Locale {
@@ -40,18 +33,6 @@ struct English: Locale {
     
     func modeAutomaticTransformH() -> String {
         return "Transform sh";
-    }
-    
-    func updateAvailable() -> String {
-        return "New update available!";
-    }
-    
-    func currentVersion(version: String) -> String {
-        return "Version: " + version;
-    }
-    
-    func foundABug() -> String {
-        return "Found a bug?"
     }
     
     func changeLanguage() -> String {

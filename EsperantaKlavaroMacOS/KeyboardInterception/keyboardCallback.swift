@@ -1,10 +1,3 @@
-//
-//  keyboardCallback.swift.swift
-//  Tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-27.
-//
-
 import Foundation
 import SwiftUI
 import Swift
@@ -20,7 +13,7 @@ func keyboardCallback(proxy : CGEventTapProxy, type : CGEventType, event : CGEve
     
     if type == .tapDisabledByTimeout || type == .tapDisabledByUserInput {
         print("DISABLE");
-        //CGEvent.tapEnable(tap: eventTap!, enable: true)
+        
         return Unmanaged.passRetained(event)
     }
     

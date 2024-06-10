@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-25.
-//
-
 import SwiftUI
 
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -14,7 +7,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Init Keyboard
-        
         statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
         if let button = statusItem.button {
             let img = NSImage(named: NSImage.Name("StatusIcon"))!
@@ -47,14 +39,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     @objc func openBug() {
         let url = URL(string: "https://github.com/PumpedSardines/Tajpi/issues")!
         NSWorkspace.shared.open(url)
-    }
-    
-    @objc func openNewVersion() {
-        if let url = newVersion {
-            let url = URL(string: url)!
-            NSWorkspace.shared.open(url)
-        }
-
     }
     
     func setupMenus() {
@@ -93,34 +77,16 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         //============ Lower settings menu ============
         menu.addItem(NSMenuItem.separator())
-        
-        if let url = newVersion {
-            let updateButton = NSMenuItem(title: locale.value.updateAvailable(), action: #selector(openNewVersion), keyEquivalent: "")
-            menu.addItem(updateButton)
-        }
-        
-        let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-        if let appVersion = appVersion {
-            let version = NSMenuItem(title: locale.value.currentVersion(version: appVersion), action: nil, keyEquivalent: "")
-            version.isEnabled = false;
-            menu.addItem(version)
-        }
-
-        let bugButton = NSMenuItem(title: locale.value.foundABug(), action: #selector(openBug), keyEquivalent: "")
-        menu.addItem(bugButton)
 
         let localeMenu = getLocaleMenu();
         let languageButton = NSMenuItem(title: locale.value.changeLanguage(), action: nil, keyEquivalent: "")
         menu.addItem(languageButton)
         menu.setSubmenu(localeMenu, for: languageButton)
         
-        
-        
         menu.addItem(NSMenuItem.separator())
         
         // Add a quit button
         menu.addItem(NSMenuItem(title: locale.value.quit(), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
-        
         
         statusItem.menu = menu
     }
@@ -135,11 +101,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         setupMenus()
     }
     
-    @objc func setLanguageSwedish() {
-        locale.change(Swedish())
-        setupMenus()
-    }
-    
     func getLocaleMenu() -> NSMenu {
         let menu = NSMenu();
         menu.autoenablesItems = true
@@ -148,7 +109,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             // Language, function to switch, if it's selected
             (English(),  #selector(setLanguageEnglish), locale.value is English),
             (Esperanto(),  #selector(setLanguageEsperanto), locale.value is Esperanto),
-            (Swedish(),  #selector(setLanguageSwedish), locale.value is Swedish),
         ] as [(Locale, Selector, Bool)];
         
         
@@ -189,6 +149,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Init option mode button
         let optionButton = NSMenuItem(title: locale.value.modeOption(), action: #selector(setOptionMode) , keyEquivalent: "")
         optionButton.state = .off
+        
         if(option.value) {
             optionButton.state = .on
         }

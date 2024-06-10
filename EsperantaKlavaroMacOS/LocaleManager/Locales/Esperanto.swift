@@ -1,10 +1,3 @@
-//
-//  Esperanto.swift
-//  Tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-28.
-//
-
 import Foundation
 
 struct Esperanto: Locale {
@@ -40,18 +33,6 @@ struct Esperanto: Locale {
     
     func modeAutomaticTransformX() -> String {
         return "Transformu sx";
-    }
-    
-    func updateAvailable() -> String {
-        return "Nova versio disponebla!";
-    }
-    
-    func currentVersion(version: String) -> String {
-        return "Versio: " + version;
-    }
-    
-    func foundABug() -> String {
-        return "Ĉu vi trovis cimon?"
     }
     
     func changeLanguage() -> String {

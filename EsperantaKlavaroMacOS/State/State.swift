@@ -1,14 +1,7 @@
-//
-//  State.swift
-//  Tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-27.
-//
-
 import Foundation
 
 private let defaults = UserDefaults.standard
-private let key = "com.fritiofrusck.tajpi."
+private let key = "com.nhershy.EsperantaKlavaroMacOS"
 
 protocol State {
     associatedtype T

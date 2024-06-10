@@ -1,10 +1,3 @@
-//
-//  Locale.swift
-//  Tajpi
-//
-//  Created by Fritiof Rusck on 2022-01-27.
-//
-
 import Foundation
 
 protocol Locale {
@@ -18,9 +11,6 @@ protocol Locale {
     func modeAutomaticTransformX() -> String;
     func modeAutomaticTransformH() -> String;
     
-    func updateAvailable() -> String;
-    func currentVersion(version: String) -> String;
-    func foundABug() -> String;
     func changeLanguage() -> String;
     
     func quit() -> String;
