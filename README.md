@@ -4,6 +4,8 @@ A macOS keyboard application for easily typing the Esperanto diacritic letters (
 
 Esperanta Klavaro runs in the background listens for the configured key combinations to convert normal letters into Esperanto letters. When the application is running, an icon will be visible in the menu bar. Clicking the icon will reveal the settings interface.
 
+To find out more about Esperanto, click [here](https://www.nicholasjhershy.com/esperanto.html)
+
 ## Download
 
 Download the application [here](https://github.com/nhershy/EsperantaKlavaroMacOS/raw/13ab2d4bf61e7c7bbe93f85d9d67e46595757f35/.github/assets/Esperanta%20Klavaro.dmg)
