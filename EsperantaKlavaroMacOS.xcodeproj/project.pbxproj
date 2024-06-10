@@ -27,7 +27,6 @@
 /* Begin PBXFileReference section */
 		808CDE8727A3F44B00B7ADBF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		808CDE8827A3F44B00B7ADBF /* .github */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .github; sourceTree = "<group>"; };
-		808CDE8927A3F82C00B7ADBF /* GIVE_ACCESS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GIVE_ACCESS.md; sourceTree = "<group>"; };
 		80B273D327A2AAD2005B451F /* Esperanta Klavaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Esperanta Klavaro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B273DA27A2AAD3005B451F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B273DD27A2AAD3005B451F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,7 +46,6 @@
 		80B2740827A2BCBA005B451F /* KeyCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyCodes.swift; sourceTree = "<group>"; };
 		80B2740A27A2C0B4005B451F /* English.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = English.swift; sourceTree = "<group>"; };
 		80B2740F27A3E95F005B451F /* Esperanto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Esperanto.swift; sourceTree = "<group>"; };
-		80B428EB2876D3B500C62C3F /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +62,7 @@
 		80B273CA27A2AAD2005B451F = {
 			isa = PBXGroup;
 			children = (
-				80B428EB2876D3B500C62C3F /* CHANGELOG.md */,
 				80B273F927A2B2A0005B451F /* README.md */,
-				808CDE8927A3F82C00B7ADBF /* GIVE_ACCESS.md */,
 				808CDE8727A3F44B00B7ADBF /* .gitignore */,
 				808CDE8827A3F44B00B7ADBF /* .github */,
 				80B273D527A2AAD2005B451F /* EsperantaKlavaroMacOS */,
