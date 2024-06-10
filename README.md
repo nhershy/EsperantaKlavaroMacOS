@@ -9,7 +9,7 @@ Esperanta Klavaro runs in the background listens for the configured key combinat
 Download the application [here](https://github.com/nhershy/EsperantaKlavaroMacOS/raw/13ab2d4bf61e7c7bbe93f85d9d67e46595757f35/.github/assets/Esperanta%20Klavaro.dmg)
 
 Once downloaded, double click on the dmg file, and drag "Esperanta Klavaro" into the "Applications" folder. 
-Then double click the "Applications" folder, and double click "Esperanta Klavaro" to start the application
+Then double click the "Applications" folder, and double click "Esperanta Klavaro" to start the application.
 
 Then you must:
 1) Add Accessibility Configuration 
