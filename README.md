@@ -1,56 +1,56 @@
-# Tajpi
-A macos clone of the windows program [Tajpi](http://www.zz9pza.net/tajpi/en/). Tajpi lets you type esperanto letters by either holding down the option key or automatically transforming sh or sx combinations into corresponding Esperanto letter.
-## Table of Contents
+# Esperanta Klavaro
 
-* [Download](#download)
-    * [Give Accessibility access](#give-accessibility-access)
-    * [Launch on Startup](#launch-on-startup)
-* [How to use](#how-to-use)
-    * [Modes](#modes)
-* [Possible problems](#possible-problems)
+A macOS keyboard application for easily typing the Esperanto diacritic letters (i.e. the letters with "hats", which are also known in esperanto as "ĉapelitaj literoj"):  ĉ, ĝ, ĥ, ĵ, ŝ, and ŭ. This application allows the user to enter Esperanto letters by holding down the **option** key while pressing the specified letter to transform it into its hat-version, and/or by automatically transforming key combinations into the corresponding Esperanto letter, following the [X-System](https://en.wikipedia.org/wiki/Substitutions_of_the_Esperanto_alphabet#X-system) or the [H-System](https://en.wikipedia.org/wiki/Substitutions_of_the_Esperanto_alphabet#H-system). (For example, typing *sx* would result in *ŝ*).
+
+Esperanta Klavaro runs in the background listens for the configured key combinations to convert normal letters into Esperanto letters. When the application is running, an icon will be visible in the menu bar. Clicking the icon will reveal the settings interface.
 
 ## Download
-Download the [latest release](https://github.com/PumpedSardines/Tajpi/releases/tag/1.1.0) from this GitHub. To run this application you need to follow [these steps](https://support.apple.com/en-ph/guide/mac-help/mh40616/mac) for allowing execution. 
 
-### Give Accessibility access
-After running the program you will need to open System Preferences and go to *Security & Privacy > Accessibility*. Click the lock in the bottom left to make changes. 
+Download the application [here](https://github.com/nhershy/EsperantaKlavaroMacOS/raw/13ab2d4bf61e7c7bbe93f85d9d67e46595757f35/.github/assets/Esperanta%20Klavaro.dmg)
+
+Once downloaded, double click on the dmg file, and drag "Esperanta Klavaro" into the "Applications" folder. 
+Then double click the "Applications" folder, and double click "Esperanta Klavaro" to start the application
+
+Then you must:
+1) Add Accessibility Configuration 
+2) Configure to Launch on Startup
+
+### How to add Accessibility configuration 
+
+Open System Settings
+Click Privacy & Security
+Click Accessibility
+Click the "+" symbol at the bottom
+Find the "Esperanta Klavaro" application in the "Applications" folder
+Ensure the switch is set to ON
 
 <div align="center">
-    <img src=".github/assets/lock.png" width="50%">
+    <img src=".github/assets/accessibility.jpg" width="50%">
 </div>
 
-Click the + sign
+### How to configure to Launch on Startup
+Open System Settings
+Click General
+Click Login Items
+Click the "+" at the bottom
+Select "Esperanta Klavaro" in the "Applications" folder
 
 <div align="center">
-    <img src=".github/assets/plus.png" width="50%">
+    <img src=".github/assets/login.jpg" width="50%">
 </div>
-
-Then find the location of the Application in the finder window and double click on it.
-
-
-### Launch on Startup
-Some user might want Tajpi to always run. If that's the case you probably want to add it to autostart.
-
-Open System Preferences and go to *Users & Groups > Login Items*. 
-Click the plus sign button
-<div align="center">
-    <img src=".github/assets/user.png" width="50%">
-</div>
-
-Then find the location of the Application in the finder window and double click on it.
-
-
-## How to use
-Tajpi will appear as an icon in the menu bar. If you click on it, you'll be greeted with a settings interface.
 
 ### Modes
-There exists three modes for entering Esperanto letters. Any combination of them can be enabled at the same time.
+There are 3 different modes for typing Esperanto letters. Any combination of them can be enabled at the same time.
 
-**Mode 1**: To type an esperanto letter press and hold the option key as you press down either c g h j s u and they will transform into ĉ ĝ ĥ ĵ ŝ ŭ.
+<div align="center">
+    <img src=".github/assets/application.jpg" width="50%">
+</div>
 
-**Mode 2**: Tajpi will keep track of the letters you press and when it sees the combination of a latin letter which resembles an esperanto letter and x. It will automatically transform it into the corresponding esperanto letter. This is especially useful for people who are already used to typing Esperanto words with x. Example sx turns into ŝ
+**Mode 1**
+Press and hold the **option** key as you press c, g, h, j, s, u, and they will transform into ĉ, ĝ, ĥ, ĵ, ŝ, ŭ.
 
-**Mode 3**: The same as mode 2 but with h instead of x
+**Mode 2**
+Esperanta Klavaro has a keyboardListener event that watches the letters typed, and when it sees the combination of a latin letter plus *x*, it will automatically transform it into the corresponding Esperanto letter. This is known as the X-System.
 
-## Possible problems
-Tajpi won't work without enabled accessability permissions. Double check that permissions are set. If you've downloaded a new version, you might need to remove tajpi from the list and add it again by pressing the "-" sign at the bottom left of the ui.
+**Mode 3**
+The same as mode 2 but with *h*. This is known as the H-System.
