@@ -18,10 +18,15 @@ Then you must:
 ### How to add Accessibility configuration 
 
 Open System Settings
+
 Click Privacy & Security
+
 Click Accessibility
+
 Click the "+" symbol at the bottom
+
 Find the "Esperanta Klavaro" application in the "Applications" folder
+
 Ensure the switch is set to ON
 
 <div align="center">
@@ -29,10 +34,15 @@ Ensure the switch is set to ON
 </div>
 
 ### How to configure to Launch on Startup
+
 Open System Settings
+
 Click General
+
 Click Login Items
+
 Click the "+" at the bottom
+
 Select "Esperanta Klavaro" in the "Applications" folder
 
 <div align="center">
@@ -47,10 +57,13 @@ There are 3 different modes for typing Esperanto letters. Any combination of the
 </div>
 
 **Mode 1**
+
 Press and hold the **option** key as you press c, g, h, j, s, u, and they will transform into ĉ, ĝ, ĥ, ĵ, ŝ, ŭ.
 
 **Mode 2**
+
 Esperanta Klavaro has a keyboardListener event that watches the letters typed, and when it sees the combination of a latin letter plus *x*, it will automatically transform it into the corresponding Esperanto letter. This is known as the X-System.
 
 **Mode 3**
+
 The same as mode 2 but with *h*. This is known as the H-System.
