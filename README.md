@@ -51,7 +51,7 @@ Select "Esperanta Klavaro" in the "Applications" folder
     <img src=".github/assets/login.jpg" width="50%">
 </div>
 
-### Modes
+## How to Use
 There are 3 different modes for typing Esperanto letters. Any combination of them can be enabled at the same time.
 
 <div align="center">
