@@ -6,7 +6,7 @@ Esperanta Klavaro runs in the background listens for the configured key combinat
 
 To find out more about Esperanto, click [here](https://www.nicholasjhershy.com/esperanto.html)
 
-## Download
+## Setup
 
 Download the application [here](https://github.com/nhershy/EsperantaKlavaroMacOS/raw/13ab2d4bf61e7c7bbe93f85d9d67e46595757f35/.github/assets/Esperanta%20Klavaro.dmg)
 
@@ -69,3 +69,7 @@ Esperanta Klavaro has a keyboardListener event that watches the letters typed, a
 **Mode 3**
 
 The same as mode 2 but with *h*. This is known as the H-System.
+
+## Are you looking for an Esperanto spellchecker for macOS? 
+
+Check out [EsperantoSpellcheckMacOS](https://github.com/nhershy/EsperantoSpellcheckMacOS)!
